@@ -1,0 +1,145 @@
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  font-family: serif;
+  color: #303030;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @media (min-width: 990px) {
+    .login-wrapper {
+      width: 990px;
+    }
+  }
+
+  .heading-logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .heading {
+    max-width: 900px;
+    text-align: center;
+    color: #303030;
+    font-size: 40px;
+    margin-left: -40px;
+  }
+  .sub-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 20px;
+
+    h2 {
+      width: 250px;
+      text-align: start;
+      line-height: 25px;
+      font-size: 20px;
+    }
+    .signin-text {
+      font-weight: 600;
+      margin-top: 10px;
+    }
+  }
+
+  .oncologyLogo {
+    width: 150px;
+    height: 150px;
+  }
+  .auth-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .common-input {
+      color: #303030;
+      height: 20px;
+      padding: 10px;
+      font-family: serif;
+      width: 260px;
+      height: 40px;
+      font-size: 18px;
+    }
+    .common-input:focus {
+      border: 2px solid rgb(233, 174, 174);
+    }
+    ::placeholder {
+      color: #929292;
+    }
+
+    .signin-btn {
+      width: 150px;
+      font-size: 17px;
+      line-height: 30px;
+      border-radius: 30px;
+      cursor: pointer;
+      background-color: rgb(219, 125, 153);
+      margin: 20px 0;
+      font-family: serif;
+      color: whitesmoke;
+      font-weight: 600;
+      align-self: center;
+    }
+    .signin-btn:hover {
+      background-color: rgb(231, 162, 184);
+    }
+  }
+
+  .divider-container {
+    width: 260px;
+    margin-bottom: 20px;
+    .hr-text {
+      line-height: 1em;
+      position: relative;
+      outline: 0;
+      border: 0;
+      color: black;
+      text-align: center;
+      height: 1.5em;
+      opacity: 0.5;
+      &:before {
+        content: '';
+        // use the linear-gradient for the fading effect
+        // use a solid background color for a solid bar
+        background: linear-gradient(
+          to right,
+          transparent,
+          #818078,
+          transparent
+        );
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        height: 1px;
+      }
+      &:after {
+        content: attr(data-content);
+        position: relative;
+        display: inline-block;
+        color: black;
+
+        padding: 0 0.5em;
+        line-height: 1.5em;
+        // this is really the only tricky part, you need to specify the background color of the container element...
+        color: #818078;
+        background-color: #ffe4e4;
+      }
+    }
+  }
+  .google-btn {
+    margin-bottom: 20px;
+  }
+  .bottom-text {
+    font-size: 17px;
+  }
+  .join-now {
+    color: blue;
+    cursor: pointer;
+  }
+}

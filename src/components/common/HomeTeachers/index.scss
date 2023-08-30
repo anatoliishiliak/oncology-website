@@ -1,0 +1,34 @@
+.teachers-wrapper {
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 232, 0) 0%,
+    rgba(253, 170, 191, 0.305) 90%,
+    rgba(255, 225, 232, 0) 100%
+  );
+  margin: 0 20px 20px 0;
+  cursor: pointer;
+}
+.teachers-wrapper:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 232, 0) 0%,
+    rgba(255, 73, 118, 0.305) 90%,
+    rgba(255, 225, 232, 0) 100%
+  );
+}
+
+.teachers-box {
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,130 @@
+.todo-box {
+  margin: 10px;
+  padding: 10px;
+  background: rgba(253, 170, 191, 0.305) 90%;
+  border-radius: 4px;
+  border: 2px solid rgb(255, 189, 189);
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+/* width */
+.todo-box::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.todo-box::-webkit-scrollbar-track {
+  background: rgba(255, 218, 227, 0.305) 90%;
+}
+
+/* Handle */
+.todo-box::-webkit-scrollbar-thumb {
+  background: #fda8a8;
+}
+
+/* Handle on hover */
+.todo-box::-webkit-scrollbar-thumb:hover {
+  background: #ff8b8b;
+}
+.todo-header {
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.todo-subheader {
+  text-align: center;
+  font-size: 19px;
+}
+.todo-input {
+  color: #212121;
+  width: 100%;
+  margin: 10px 10px 10px 0;
+  height: 30px;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-size: 20px;
+}
+.todo-input:focus {
+  outline: 2px solid rgb(252, 136, 136);
+}
+.todo-form {
+  display: flex;
+  align-items: center;
+}
+.todo-submit {
+  width: 40px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #fda8a8;
+  font-size: 27px;
+  font-weight: 800;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.todo-submit:active {
+  border: 2px solid rgb(253, 112, 112);
+}
+.todo-button-wrapper {
+  display: flex;
+}
+.todo-button {
+  padding: 0 10px;
+  margin: 0 10px 10px 0;
+  height: 33px;
+  border-radius: 10px;
+  background-color: #fda8a8;
+  font-size: 23px;
+  font-weight: 800;
+  color: white;
+  border: 2px solid white;
+  white-space: nowrap;
+}
+.todo-button:active {
+  border: 2px solid rgb(253, 112, 112);
+}
+.todos-wrapper {
+  margin: 10px 0;
+}
+.todos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  align-items: center;
+}
+.todos-text {
+  width: 100%;
+  max-width: 200px;
+  font-size: 17px;
+  overflow: hidden;
+  margin-right: 10px;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+.is-done {
+  width: 100%;
+  font-size: 17px;
+  overflow: hidden;
+  margin-right: 10px;
+  text-transform: uppercase;
+
+  text-decoration: line-through rgb(255, 90, 90) 2px;
+}
+.todos-button {
+  margin-right: 5px;
+  height: 25px;
+  padding: 1px;
+  border-radius: 50%;
+  background-color: #fda8a8;
+  font-size: 23px;
+  font-weight: 800;
+  color: white;
+  border: 2px solid white;
+  white-space: nowrap;
+}
+.todos-button:active {
+  border: 2px solid rgb(253, 112, 112);
+}

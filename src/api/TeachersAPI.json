@@ -1,0 +1,37 @@
+[
+  {
+    "image": "https://www.ifnmu.edu.ua/images/zagalna_informacia/_kafedri/onkolohii/foto_empl/kryzhanivska_ay_30.05.2022.jpg",
+    "name": "Kryzhanivska Anna Evstakhiivna",
+    "position": "Head of the Oncology Department of the Ivano-Frankivsk National Medical University",
+    "scientificTitle": "Doctor of Medical Sciences, professor",
+    "medicalTitle": "Higher category in the specialty \"oncology\""
+  },
+  {
+    "image": "https://www.ifnmu.edu.ua/images/zagalna_informacia/_kafedri/onkolohii/foto_empl/holotiuk_vv_30.05.2022.jpg",
+    "name": "Holotiuk Volodymyr Volodymyrovych",
+    "position": "Professor of the Oncology Department of the Ivano-Frankivsk National Medical University",
+    "scientificTitle": "PhD in Medicine",
+    "medicalTitle": "Higher category in the specialty \"oncosurgery\""
+  },
+  {
+    "image": "https://www.ifnmu.edu.ua/images/zagalna_informacia/_kafedri/onkolohii/foto_empl/andriiv_av_30.05.2022.jpg",
+    "name": "Andriiv Alina Volodymyrivna",
+    "position": "Associate Professor of the Oncology Department of the Ivano-Frankivsk National Medical University",
+    "scientificTitle": "Candidate of Medical Sciences",
+    "medicalTitle": "Higher category in the specialty \"oncosurgery\""
+  },
+  {
+    "image": "https://www.ifnmu.edu.ua/images/zagalna_informacia/_kafedri/onkolohii/foto_empl/diakiv_ib_30.05.2022.jpg",
+    "name": "Diakiv Iryna Bohdanivna",
+    "position": "Associate Professor of the Oncology Department of the Ivano-Frankivsk National Medical University",
+    "scientificTitle": "Candidate of Medical Sciences",
+    "medicalTitle": "The second category in the specialty \"oncosurgery\""
+  },
+  {
+    "image": "https://www.ifnmu.edu.ua/images/zagalna_informacia/_kafedri/onkolohii/foto_empl/holotiuk_is_30.05.2022.jpg",
+    "name": "Holotyuk Ivan Serhiyovych",
+    "position": "Assistant of the Oncology Department of the Ivano-Frankivsk National Medical University",
+    "scientificTitle": "",
+    "medicalTitle": "The second category in the specialty \"oncosurgery\""
+  }
+]
